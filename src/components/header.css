@@ -1,0 +1,17 @@
+.header{
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    margin: 1em;
+    /* background-color: red; */
+}
+
+
+.websiteName{
+    font-size: xx-large;
+    margin: 1em;
+}

@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Header from "../../components/header";
+import { Button } from "@mui/material";
 function Login(){
-    return (<>Login page
+    return (<>
+    <Header></Header>
+    Login page
     
     <br></br>
-    <Link to="/register">Register now</Link>
+    <Link to="/register"><div className="button"><Button variant="contained">Register</Button></div> </Link>
     <br></br>
-    <Link to="/">Home page</Link>
+    <Link to="/"><div className="button"><Button variant="contained">Home Page</Button></div> </Link>
 
     
     </>);
